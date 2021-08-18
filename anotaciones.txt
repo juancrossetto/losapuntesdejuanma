@@ -1,0 +1,8 @@
+Para crear proyecto NextJS con TypeScript:
+	npx create-next-app nombreProyecto --ts --use-npm
+
+borramos el eslintrc.json que viene de next y usamos el generator de goncy:
+yo goncy:react 
+	Elegimos eslint
+	Elegimos next
+Este archivo extiende de core.vitals de next y le agrega mas reglas.
